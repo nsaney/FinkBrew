@@ -1,3 +1,5 @@
+In this directory, "resources", create a file called BrewPreferences.xml, which should NOT be checked in to source control (as it may have a plaintext password).
+Use the rest of this file as a template:
 <?xml version="1.0" encoding="UTF-8"?>
 <BrewPreferences>
     <Notification>
@@ -12,6 +14,7 @@
           <!-- <ToAddress>4575550102@tmomail.net</ToAddress> -->
           <!-- <ToAddress>4575550103@messaging.sprintpcs.com</ToAddress> -->
           <!-- <ToAddress>4575550104@mymetropcs.com</ToAddress> -->
+          <!-- and more -->
         </ToAddresses>
         <Notes></Notes>
     </Notification>
